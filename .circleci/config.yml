@@ -32,7 +32,3 @@ jobs:
           name: Back-End Build
           command: |
             npm run be-build
-workflows:
-  build_deploy:     
-    jobs:
-      - build        
