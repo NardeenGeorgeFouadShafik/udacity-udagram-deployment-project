@@ -2,7 +2,9 @@
 {
     "scripts": {
         "be-install": "cd udagram-api && npm install",
-        "fe-install": "cd udagram-frontend && npm install"
+        "fe-install": "cd udagram-frontend && npm install",
+        "be-build": "cd udagram-api && npm run build",
+        "fe-build": "cd udagram-frontend && npm run build"
     },
     "devDependencies": {}
 }
