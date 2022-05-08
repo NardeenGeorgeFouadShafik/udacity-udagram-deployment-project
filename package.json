@@ -7,7 +7,7 @@
         "fe-build": "cd udagram-frontend && npm run build",
         "be-test": "cd udagram-api && npm run test",
         "fe-test": "cd udagram-frontend && npm run test --watchAll=false",
-        "be-deploy": "cd udagram-api/dist && eb init project-backend -r $AWS_REGION -p node.js && eb use udagram-api-dev && eb deploy",
+        "be-deploy": "cd udagram-api/www && eb init udagram-api -r $AWS_REGION -p node.js && eb use udagram-api-dev && eb deploy",
         "fe-deploy": "aws s3 cp udagram-frontend/www/ s3://my-udacity-udagram-bucket --recursive"
       },
     "devDependencies": {}
