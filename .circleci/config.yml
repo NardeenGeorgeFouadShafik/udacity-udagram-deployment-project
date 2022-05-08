@@ -31,12 +31,6 @@ jobs:
           name: Backend build
           command: npm run be-build
       - run:
-          name: Frontend test
-          command: npm run fe-test
-      - run: 
-          name: Backend test
-          command: npm run be-test
-      - run:
           name: Frontend deploy
           command: npm run fe-deploy
       - run:
