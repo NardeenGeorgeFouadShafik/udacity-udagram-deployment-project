@@ -40,8 +40,7 @@ jobs:
 workflows:
   build-deploy:
     jobs:
-      - CICD
+      - CICD:
           filters:
             branches:
               only: [origin]
-  version: 2
