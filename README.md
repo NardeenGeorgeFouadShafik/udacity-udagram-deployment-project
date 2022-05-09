@@ -36,6 +36,13 @@ See additional documentation in the documentation folder.
 
 ![PostgreSQL RDS database](./documentation/images/RDS.png)
 
+### CircleCI Pipeline
+
+![CircleCI Pipeline](./documentation/images/circleci-pipeline-1.png)
+
+![CircleCI Pipeline](./documentation/images/circleci-pipeline-2.png)
+
+![CircleCI Pipeline environment variables](./documentation/images/pipeline-environment-variables.png)
 
 Schema
 
@@ -45,4 +52,11 @@ Schema
 
 ![Architecture](./documentation/images/udagram archtitecture.png)
 
+### Infrastructure Description
+[Infrastructure Document](./documentation/Infrastructure.md)
 
+### Infrastructure Description
+[App Dependencies](./documentation/App Dependencies.md)
+
+### Infrastructure Description
+[Pipeline Process](./documentation/Pipeline Process.md)
