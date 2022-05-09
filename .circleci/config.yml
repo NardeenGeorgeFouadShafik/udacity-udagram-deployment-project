@@ -41,4 +41,6 @@ workflows:
   build-deploy:
     jobs:
       - CICD
-         
+          filters:
+            branches:
+              only: [origin]
