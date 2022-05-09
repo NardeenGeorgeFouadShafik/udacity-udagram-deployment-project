@@ -43,4 +43,4 @@ workflows:
       - CICD:
           filters:
             branches:
-              only: [main, master]
+              only: [origin]
