@@ -11,7 +11,7 @@ The project was built with
 - AWS CLI 2.2.5
 - EB CLI 3.19.4
 
-##The app is accessible via this link
+## The app is accessible via this link
 http://my-udacity-udagram-bucket.s3-website-us-east-1.amazonaws.com
 
 See additional documentation in the documentation folder.
@@ -19,6 +19,10 @@ See additional documentation in the documentation folder.
 ## Configuration Screenshots
 
 ### Elastic Beanstalk Environment
+
+#### The api link
+http://udagram-api-dev.eba-mfrhfwi3.us-east-1.elasticbeanstalk.com/
+
 
 ![Elastic Beanstalk Environment](./documentation/images/eb-1.png)
 
