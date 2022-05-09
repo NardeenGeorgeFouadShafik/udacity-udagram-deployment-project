@@ -48,7 +48,7 @@ http://udagram-api-dev.eba-mfrhfwi3.us-east-1.elasticbeanstalk.com/
 
 ![CircleCI Pipeline environment variables](./documentation/images/circleci-environment-variables.png)
 
-Schema
+### Schema
 
 ![Pipeline Schema](./documentation/images/schema.png)
 
