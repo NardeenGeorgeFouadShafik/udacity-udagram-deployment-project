@@ -50,13 +50,13 @@ Schema
 
 ### Architecture
 
-![Architecture](./documentation/images/udagram archtitecture.png)
+![Architecture](./documentation/images/udagram%20archtitecture.png)
 
 ### Infrastructure Description
 [Infrastructure Document](./documentation/Infrastructure.md)
 
 ### Infrastructure Description
-[App Dependencies](./documentation/App Dependencies.md)
+[App Dependencies](./documentation/App%20Dependencies.md)
 
 ### Infrastructure Description
-[Pipeline Process](./documentation/Pipeline Process.md)
+[Pipeline Process](./documentation/Pipeline%20Process.md)

@@ -12,4 +12,4 @@
 
 ## Infrastracture Schema
 
-![Infrastructure Schema](./images/udagram archtitecture.png)
+![Infrastructure Schema](./images/udagram%20archtitecture.png)
