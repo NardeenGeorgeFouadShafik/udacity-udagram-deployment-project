@@ -7,7 +7,7 @@
         "fe-build": "cd udagram-frontend && npm run build",
         "be-test": "cd udagram-api && npm run test",
         "fe-test": "cd udagram-frontend && npm run test --watchAll=false",
-        "be-deploy": "cd udagram-api/www && eb init udagram-api -r $AWS_REGION -p node.js && eb use udagram-api-dev && eb deploy",
+        "be-deploy": "cd udagram-api/www && eb init udagram-api -r $AWS_REGION -p node.js && eb use udagram-api-dev && eb setenv POSTGRES_HOST=$POSTGRES_HOST POSTGRES_DB=$POSTGRES_DB POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD JWT_SECRET=$JWT_SECRET PORT=$PORT AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_REGION=$AWS_REGION AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY DB_PORT=$DB_PORT RDS_DIALECT=$RDS_DIALECT && eb deploy",
         "fe-deploy": "aws s3 cp udagram-frontend/www/ s3://my-udacity-udagram-bucket --recursive"
       },
     "devDependencies": {}
